@@ -34,9 +34,9 @@ search_terms_in_abstracts('terms.txt', 'arXiv_results.xlsx', 'matches_output.txt
 Directory Structure:
 
 ```
-arxiv_tool/
+arxiv-tool-analyzer/
 │
-├── arxiv_tool/
+├── arxiv-tool-analyzer/
 │   ├── __init__.py
 │   ├── arxiv_search.py
 │   ├── merge_files.py
