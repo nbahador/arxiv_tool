@@ -1,0 +1,785 @@
+Search Term: GPU
+==================================================
+Title: KurTail : Kurtosis-based LLM Quantization
+URL: http://arxiv.org/abs/2503.01483v1
+Matching Sentences:
+ - For comparison, learning the rotation using
+SpinQuant for Llama3-70B requires at least four NVIDIA H100 80GB GPUs, whereas
+our method requires only a single GPU, making it a more accessible solution for
+consumer GPU.
+--------------------------------------------------
+Title: Nature-Inspired Population-Based Evolution of Large Language Models
+URL: http://arxiv.org/abs/2503.01155v1
+Matching Sentences:
+ - We have open-sourced the code on GitHub and released the
+weights of 10 parent LLMs, fine-tuned from gemma-2-2b-it, on HuggingFace$,
+enabling reproduction of our proposed framework using just a single 4090 GPU
+with 24GB memory, without any performance degradation.
+--------------------------------------------------
+Title: Scalable Signature Kernel Computations for Long Time Series via Local Neumann Series Expansions
+URL: http://arxiv.org/abs/2502.20392v1
+Matching Sentences:
+ - This method
+achieves substantial performance improvements over state-of-the-art approaches
+for computing the signature kernel, providing (a) adjustable and superior
+accuracy, even for time series with very high roughness; (b) drastically
+reduced memory requirements; and (c) scalability to efficiently handle very
+long time series (e.g., with up to half a million points or more) on a single
+GPU.
+--------------------------------------------------
+Title: AutoHete: An Automatic and Efficient Heterogeneous Training System for LLMs
+URL: http://arxiv.org/abs/2503.01890v1
+Matching Sentences:
+ - However, the limitations of GPU memory
+have restricted LLM training accessibility for many researchers.
+ - In
+this work, we propose AutoHete, an automatic and efficient heterogeneous
+training system compatible with both single-GPU and multi-GPU environments.
+AutoHete dynamically adjusts activation checkpointing, parameter offloading,
+and optimizer offloading based on the specific hardware configuration and LLM
+training needs.
+--------------------------------------------------
+Title: Striving for Faster and Better: A One-Layer Architecture with Auto Re-parameterization for Low-Light Image Enhancement
+URL: http://arxiv.org/abs/2502.19867v1
+Matching Sentences:
+ - Especially, our running time on various platforms (e.g., CPU, GPU,
+NPU, DSP) consistently moves beyond the existing fastest scheme.
+--------------------------------------------------
+Title: Comet: Fine-grained Computation-communication Overlapping for Mixture-of-Experts
+URL: http://arxiv.org/abs/2502.19811v3
+Matching Sentences:
+ - COMET
+has been adopted in the production environment of clusters with
+ten-thousand-scale of GPUs, achieving savings of millions of GPU hours.
+--------------------------------------------------
+Title: FPGA-Accelerated SpeckleNN with SNL for Real-time X-ray Single-Particle Imaging
+URL: http://arxiv.org/abs/2502.19734v1
+Matching Sentences:
+ - On an NVIDIA A100 GPU, the
+same inference consumed ~73W and had a 400us latency.
+ - Our FPGA version achieved
+an 8.9x speedup and 7.8x power reduction over the GPU.
+--------------------------------------------------
+Title: LettuceDetect: A Hallucination Detection Framework for RAG Applications
+URL: http://arxiv.org/abs/2502.17125v1
+Matching Sentences:
+ - Additionally, the system can
+process 30 to 60 examples per second on a single GPU, making it more practical
+for real-world RAG applications.
+--------------------------------------------------
+Title: Make LLM Inference Affordable to Everyone: Augmenting GPU Memory with NDP-DIMM
+URL: http://arxiv.org/abs/2502.16963v1
+Matching Sentences:
+ - However, the restricted
+bandwidth between the host and GPU memory limits the inference performance.
+  This work introduces Hermes, a budget-friendly system that leverages the
+near-data processing (NDP) within commodity DRAM DIMMs to enhance the
+performance of a single consumer-grade GPU, achieving efficient LLM inference.
+The inherent activation sparsity in LLMs naturally divides weight parameters
+into two categories, termed ``hot" and ``cold" neurons, respectively.
+ - Therefore, we propose a heterogeneous computing strategy:
+mapping hot neurons to a single computation-efficient GPU, while offloading
+cold neurons to NDP-DIMMs, which offer large memory size but limited
+computation capabilities.
+ - Therefore, we introduce a lightweight
+predictor optimizing real-time neuron partition and adjustment between GPU and
+NDP-DIMMs.
+--------------------------------------------------
+Title: SparseTransX: Efficient Training of Translation-Based Knowledge Graph Embeddings Using Sparse Matrix Operations
+URL: http://arxiv.org/abs/2502.16949v2
+Matching Sentences:
+ - Our sparse
+implementations exhibit up to 5.3x speedup on the CPU and up to 4.2x speedup on
+the GPU with a significantly low GPU memory footprint.
+--------------------------------------------------
+Title: Towards a GPU-Native Adaptive Mesh Refinement Scheme for the Lattice Boltzmann Method in Complex Geometries
+URL: http://arxiv.org/abs/2502.16310v1
+Matching Sentences:
+ - We present a GPU-native mesh adaptation procedure that incorporates a complex
+geometry represented with a triangle mesh within a primary Cartesian
+computational grid organized as a forest of octrees.
+ - A C++/CUDA program
+implements the procedure for execution on a single GPU as part of a new module
+with the AGAL framework, which was originally developed for GPU-native adaptive
+mesh refinement (AMR) and fluid flow simulation with the Lattice Boltzmann
+Method (LBM).
+ - This work is a first step
+towards an implementation of the LBM that can simulate flow over irregular
+surfaces while retaining both adaptation of the mesh and the temporal
+integration routines entirely on the GPU.
+--------------------------------------------------
+Title: TemplateGeNN: Neural Networks used to accelerate Gravitational Wave Template Bank Generation
+URL: http://arxiv.org/abs/2502.15337v1
+Matching Sentences:
+ - TemplateGeNN generated a binary black hole
+template bank (chirp mass varied from $5 M_{\odot} \leq \mathcal{M}_{c} \leq
+20M_{\odot}$, symmetric mass ratio varied from $0.1 \leq \eta \leq 0.24999$,
+and equal aligned spin varied from $-0.99 \leq \chi_{1,2}\leq 0.99$) of 31,640
+templates in $\sim 1$ day on a single A100 GPU.
+--------------------------------------------------
+Title: Dynamic Low-Rank Sparse Adaptation for Large Language Models
+URL: http://arxiv.org/abs/2502.14816v1
+Matching Sentences:
+ - For example, LoSA reduced the
+perplexity of sparse LLaMA-2-7B by 68.73 and increased zero-shot accuracy by
+16.32$\%$, achieving a 2.60$\times$ speedup on CPU and 2.23$\times$ speedup on
+GPU, requiring only 45 minutes of fine-tuning on a single NVIDIA A100 80GB GPU.
+Code is available at https://github.com/wzhuang-xmu/LoSA.
+--------------------------------------------------
+Title: Determining Layer-wise Sparsity for Large Language Models Through a Theoretical Perspective
+URL: http://arxiv.org/abs/2502.14770v1
+Matching Sentences:
+ - Notably, our
+method achieves a reduction of 52.10 in perplexity for the 70$\%$ sparse
+LLaMA2-7B model obtained via Wanda, improves average zero-shot accuracy by
+10.50$\%$, and delivers speedups of 2.63$\times$ and 2.23$\times$ on CPU and
+GPU, respectively.
+--------------------------------------------------
+Title: Multiscale Byte Language Models -- A Hierarchical Architecture for Causal Million-Length Sequence Modeling
+URL: http://arxiv.org/abs/2502.14553v1
+Matching Sentences:
+ - Therefore, we present the Multiscale Byte
+Language Model (MBLM), a model-agnostic hierarchical decoder stack that allows
+training with context windows of $5$M bytes on single GPU in full model
+precision.
+--------------------------------------------------
+Title: ParallelComp: Parallel Long-Context Compressor for Length Extrapolation
+URL: http://arxiv.org/abs/2502.14317v1
+Matching Sentences:
+ - Additionally, we introduce a chunk eviction
+strategy to efficiently manage ultra-long contexts on a single A100 80GB GPU.
+To further enhance efficiency, we propose a parallel KV cache eviction
+technique, which improves chunk throughput by 1.76x, thereby achieving a 23.50x
+acceleration in the prefilling stage with negligible performance loss due to
+attention calibration.
+--------------------------------------------------
+Title: Distributed U-net model and Image Segmentation for Lung Cancer Detection
+URL: http://arxiv.org/abs/2502.14928v1
+Matching Sentences:
+ - In this paper, the
+efficiency of U-Net model is evaluated rigorously and precisely under multiple
+hardware configurations, such as single CPU, single GPU, distributed GPU and
+federated learning, and the effectiveness and development of the method in the
+segmentation task of lung disease are demonstrated.
+--------------------------------------------------
+Title: Slamming: Training a Speech Language Model on One GPU in a Day
+URL: http://arxiv.org/abs/2502.15814v1
+Matching Sentences:
+ - We introduce Slam, a recipe for training high-quality Speech Language Models
+(SLMs) on a single academic GPU in 24 hours.
+--------------------------------------------------
+Title: Astra: Efficient and Money-saving Automatic Parallel Strategies Search on Heterogeneous GPUs
+URL: http://arxiv.org/abs/2502.13480v1
+Matching Sentences:
+ - First, Astra searches
+for the efficiency-optimal parallel strategy in both GPU configurations search
+space (GPU types and GPU numbers) and parallel parameters search space.
+ - The search time cost for Astra can also be limited
+to 1.27 seconds in a single-GPU setting and less than 1.35 minutes in a
+heterogeneous-GPU setting on average with an accuracy of over 95%.
+--------------------------------------------------
+Title: FairKV: Balancing Per-Head KV Cache for Fast Multi-GPU Inference
+URL: http://arxiv.org/abs/2502.15804v1
+Matching Sentences:
+ - Recently,
+state-of-the-art KV cache compression methods implement imbalanced, per-head
+allocation algorithms that dynamically adjust the KV cache budget for each
+attention head, achieving excellent performance in single-GPU scenarios.
+However, we observe that such imbalanced compression leads to significant load
+imbalance when deploying multi-GPU inference, as some GPUs become overburdened
+while others remain underutilized.
+--------------------------------------------------
+Title: Performance of an Optical TPC Geant4 Simulation with Opticks GPU-Accelerated Photon Propagation
+URL: http://arxiv.org/abs/2502.13215v1
+Matching Sentences:
+ - We investigate the performance of Opticks, an NVIDIA OptiX API 7.5
+GPU-accelerated photon propagation compared with a single-threaded Geant4
+simulation.
+ - Performance results suggest that
+Opticks improves simulation speeds by between $58.47\pm{0.02}$ and
+$181.39\pm{0.28}$ times relative to a CPU-only Geant4 simulation and these
+results vary between different types of GPU and CPU.
+--------------------------------------------------
+Title: CooLBM: A Collaborative Open-Source Reactive Multi-Phase/Component Simulation Code via Lattice Boltzmann Method
+URL: http://arxiv.org/abs/2502.12955v1
+Matching Sentences:
+ - The computational framework is developed
+for the simulation of single and multi-component multi-phase problems, along
+with a reactive interface and conjugate fluid-solid heat transfer problems.
+CooLBM utilizes a multi-CPU/GPU architecture to achieve high-performance
+computing (HPC), enabling efficient and parallelized simulations for large
+scale problems.
+--------------------------------------------------
+Title: HeadInfer: Memory-Efficient LLM Inference by Head-wise Offloading
+URL: http://arxiv.org/abs/2502.12574v1
+Matching Sentences:
+ - In this paper, we propose HEADINFER, which offloads
+the KV cache to CPU RAM while avoiding the need to fully store the KV cache for
+any transformer layer on the GPU.
+ - HEADINFER employs a fine-grained, head-wise
+offloading strategy, maintaining only selective attention heads KV cache on the
+GPU while computing attention output dynamically.
+ - We evaluate HEADINFER on the
+Llama-3-8B model with a 1-million-token sequence, reducing the GPU memory
+footprint of the KV cache from 128 GB to 1 GB and the total GPU memory usage
+from 207 GB to 17 GB, achieving a 92% reduction compared to BF16 baseline
+inference.
+ - Notably, HEADINFER enables 4-million-token inference with an 8B
+model on a single consumer GPU with 24GB memory (e.g., NVIDIA RTX 4090) without
+approximation methods.
+--------------------------------------------------
+Title: SEA: Low-Resource Safety Alignment for Multimodal Large Language Models via Synthetic Embeddings
+URL: http://arxiv.org/abs/2502.12562v1
+Matching Sentences:
+ - Extensive experiments on image, video, and
+audio-based MLLMs demonstrate that SEA can synthesize a high-quality embedding
+on a single RTX3090 GPU within 24 seconds.
+--------------------------------------------------
+Title: Myna: Masking-Based Contrastive Learning of Musical Representations
+URL: http://arxiv.org/abs/2502.12511v2
+Matching Sentences:
+ - These innovations
+deliver both effectiveness and efficiency: (i) Token masking enables a
+significant increase in per-GPU batch size, from 48 or 120 in prior methods
+(CLMR, MULE) to 4096.
+ - Trained on a single GPU, it
+outperforms MULE (62M) on average and rivals MERT-95M, which was trained on 16
+and 64 GPUs, respectively.
+--------------------------------------------------
+Title: AdaSplash: Adaptive Sparse Flash Attention
+URL: http://arxiv.org/abs/2502.12082v1
+Matching Sentences:
+ - In this work, we propose
+AdaSplash, which combines the efficiency of GPU-optimized algorithms with the
+sparsity benefits of $\alpha$-entmax.
+--------------------------------------------------
+Title: TPCap: Unlocking Zero-Shot Image Captioning with Trigger-Augmented and Multi-Modal Purification Modules
+URL: http://arxiv.org/abs/2502.11024v1
+Matching Sentences:
+ - With only 0.82M trainable parameters and training on a
+single NVIDIA RTX 4090 GPU, TPCap achieves competitive performance comparable
+to state-of-the-art models.
+--------------------------------------------------
+Title: Vortex: Overcoming Memory Capacity Limitations in GPU-Accelerated Large-Scale Data Analytics
+URL: http://arxiv.org/abs/2502.09541v1
+Matching Sentences:
+ - Despite the high computational throughput of GPUs, limited memory capacity
+and bandwidth-limited CPU-GPU communication via PCIe links remain significant
+bottlenecks for accelerating large-scale data analytics workloads.
+ - This paper
+introduces Vortex, a GPU-accelerated framework designed for data analytics
+workloads that exceed GPU memory capacity.
+ - A key aspect of our framework is an
+optimized IO primitive that leverages all available PCIe links in multi-GPU
+systems for the IO demand of a single target GPU.
+ - It routes data through other
+GPUs to such target GPU that handles IO-intensive analytics tasks.
+ - We also introduce a novel programming model that separates GPU
+kernel development from IO scheduling, reducing programmer burden and enabling
+GPU code reuse.
+ - Additionally, we present the design of certain important query
+operators and discuss a late materialization technique based on GPU's zero-copy
+memory access.
+ - Without caching any data in GPU memory, Vortex improves the
+performance of the state-of-the-art GPU baseline, Proteus, by 5.7$\times$ on
+average and enhances price performance by 2.5$\times$ compared to a CPU-based
+DuckDB baseline.
+--------------------------------------------------
+Title: InfiniteHiP: Extending Language Model Context Up to 3 Million Tokens on a Single GPU
+URL: http://arxiv.org/abs/2502.08910v1
+Matching Sentences:
+ - Furthermore, we offload the key-value cache to
+host memory during inference, significantly reducing GPU memory pressure.
+ - As a
+result, InfiniteHiP enables the processing of up to 3 million tokens on a
+single L40s 48GB GPU -- 3x larger -- without any permanent loss of context
+information.
+--------------------------------------------------
+Title: Fast-COS: A Fast One-Stage Object Detector Based on Reparameterized Attention Vision Transformer for Autonomous Driving
+URL: http://arxiv.org/abs/2502.07417v1
+Matching Sentences:
+ - In extensive tests across GPU,
+edge, and mobile platforms, RAViT achieves 81.4% Top-1 accuracy on the
+ImageNet-1K dataset, demonstrating significant throughput improvements over
+comparable backbone models such as ResNet, FastViT, RepViT, and
+EfficientFormer.
+ - It surpasses
+leading models in efficiency, delivering up to 75.9% faster GPU inference and
+1.38 higher throughput on edge devices compared to FCOS, YOLOF, and RetinaNet.
+These findings establish Fast-COS as a highly scalable and reliable solution
+suitable for real-time applications, especially in resource-limited
+environments like autonomous driving systems
+--------------------------------------------------
+Title: MoETuner: Optimized Mixture of Expert Serving with Balanced Expert Placement and Token Routing
+URL: http://arxiv.org/abs/2502.06643v1
+Matching Sentences:
+ - However, as
+MoE models scale, they need to be distributed across GPU devices, thus face
+critical performance bottlenecks due to their large memory footprint.
+ - The imbalance in token
+processing load across experts causes uneven processing times on different
+GPUs, while communication skew between GPUs leads to unbalanced inter-GPU data
+transfers.
+ - Our solution,
+MoETuner, offers an optimal expert-to-GPU assignment that minimizes inter-GPU
+token routing costs and balances token processing across devices, thereby
+reducing tail latency and end-to-end execution time.
+--------------------------------------------------
+Title: MERGE$^3$: Efficient Evolutionary Merging on Consumer-grade GPUs
+URL: http://arxiv.org/abs/2502.10436v1
+Matching Sentences:
+ - We
+introduce MERGE$^3$, an efficient framework that makes evolutionary merging
+feasible on a single GPU by reducing fitness computation costs 50$\times$ while
+preserving performance.
+--------------------------------------------------
+Title: Long-VITA: Scaling Large Multi-modal Models to 1 Million Tokens with Leading Short-Context Accuracy
+URL: http://arxiv.org/abs/2502.05177v2
+Matching Sentences:
+ - Long-VITA is fully
+reproducible and supports both NPU and GPU platforms for training and testing.
+By leveraging our inference designs, Long-VITA models achieve a remarkable 2x
+prefill speedup and 4x context length extension in single node with 8 GPUs.
+--------------------------------------------------
+Title: InfinitePOD: Building Datacenter-Scale High-Bandwidth Domain for LLM with Optical Circuit Switching Transceivers
+URL: http://arxiv.org/abs/2502.03885v2
+Matching Sentences:
+ - However, existing HBD architectures face fundamental
+limitations in scalability, cost, and fault resiliency: switch-centric HBDs
+(e.g., NVL-72) incur prohibitive scaling costs, while GPU-centric HBDs (e.g.,
+TPUv3/Dojo) suffer from severe fault propagation.
+ - Switch-GPU hybrid HBDs such
+as TPUv4 takes a middle-ground approach by leveraging Optical Circuit Switches,
+but the fault explosion radius remains large at the cube level (e.g., 64 TPUs).
+  We propose InfinitePOD, a novel transceiver-centric HBD architecture that
+unifies connectivity and dynamic switching at the transceiver level using
+Optical Circuit Switching (OCS).
+ - Key innovations include a Silicon Photonic (SiPh) based
+low-cost OCS transceiver (OCSTrx), a reconfigurable k-hop ring topology
+co-designed with intra-/inter-node communication, and an HBD-DCN orchestration
+algorithm maximizing GPU utilization while minimizing cross-ToR datacenter
+network traffic.
+ - The evaluation demonstrates that InfinitePOD achieves 31% of
+the cost of NVL-72, near-zero GPU waste ratio (over one order of magnitude
+lower than NVL-72 and TPUv4), near-zero cross-ToR traffic when node fault
+ratios under 7%, and improves Model FLOPs Utilization by 3.37x compared to
+NVIDIA DGX (8 GPUs per Node).
+--------------------------------------------------
+Title: RAMOTS: A Real-Time System for Aerial Multi-Object Tracking based on Deep Learning and Big Data Technology
+URL: http://arxiv.org/abs/2502.03760v1
+Matching Sentences:
+ - By leveraging these technologies, our system
+achieves a HOTA of 48.14 and a MOTA of 43.51 on the Visdrone2019-MOT test set
+while maintaining a real-time processing speed of 28 FPS on a single GPU.
+--------------------------------------------------
+Title: Unrealized Expectations: Comparing AI Methods vs Classical Algorithms for Maximum Independent Set
+URL: http://arxiv.org/abs/2502.03669v1
+Matching Sentences:
+ - This paper compares such GPU-based methods with classical
+CPU-based methods on Maximum Independent Set (MIS).
+ - Some GPU-based methods even perform similarly to the
+simplest heuristic, degree-based greedy.
+--------------------------------------------------
+Title: Fast Sampling of Cosmological Initial Conditions with Gaussian Neural Posterior Estimation
+URL: http://arxiv.org/abs/2502.03139v1
+Matching Sentences:
+ - As a result, we can generate thousands of posterior samples
+within seconds on a single GPU, orders of magnitude faster than existing
+methods, paving the way for sequential SBI for cosmological fields.
+Furthermore, we perform an analytical fit of the estimated dependence of the
+covariance on the wavenumber, effectively transforming any point-estimator of
+initial conditions into a fast sampler.
+--------------------------------------------------
+Title: EasySpec: Layer-Parallel Speculative Decoding for Efficient Multi-GPU Utilization
+URL: http://arxiv.org/abs/2502.02493v1
+Matching Sentences:
+ - In
+multi-GPU systems, inference latency can be further reduced through tensor
+parallelism (TP), while the optimal TP size of the draft model is typically
+smaller than that of the base model, leading to GPU idling during the drafting
+stage.
+ - To solve this problem, we propose EasySpec, a layer-parallel speculation
+strategy that optimizes the efficiency of multi-GPU utilization.EasySpec breaks
+the sequential execution order of layers in the drafting model, enabling
+multi-layer parallelization across devices, albeit with some induced
+approximation errors.
+--------------------------------------------------
+Title: Transolver++: An Accurate Neural Solver for PDEs on Million-Scale Geometries
+URL: http://arxiv.org/abs/2502.02414v2
+Matching Sentences:
+ - Building upon previous
+advancements in solving PDEs by learning physical states via Transolver,
+Transolver++ is further equipped with an extremely optimized parallelism
+framework and a local adaptive mechanism to efficiently capture eidetic
+physical states from massive mesh points, successfully tackling the thorny
+challenges in computation and physics learning when scaling up input mesh size.
+Transolver++ increases the single-GPU input capacity to million-scale points
+for the first time and is capable of continuously scaling input size in linear
+complexity by increasing GPUs.
+--------------------------------------------------
+Title: Multiscale micromagnetic / atomistic modeling of heat assisted magnetic recording
+URL: http://arxiv.org/abs/2502.02236v1
+Matching Sentences:
+ - Efficient GPU optimization of the code provides very fast running
+times, with a 60~nm wide track of twenty-five 20~nm - long bits being recorded
+in several hours on a single GPU.
+--------------------------------------------------
+Title: A Multi-Objective Framework for Optimizing GPU-Enabled VM Placement in Cloud Data Centers with Multi-Instance GPU Technology
+URL: http://arxiv.org/abs/2502.01909v1
+Matching Sentences:
+ - The extensive use of GPUs in cloud computing and the growing need for
+multitenancy have driven the development of innovative solutions for efficient
+GPU resource management.
+ - Multi-Instance GPU (MIG) technology from NVIDIA
+enables shared GPU usage in cloud data centers by providing isolated instances.
+However, MIG placement rules often lead to fragmentation and suboptimal
+resource utilization.
+ - Building upon this formulation, we propose GRMU, a
+multi-stage placement framework designed to address MIG placement challenges.
+GRMU performs intra-GPU migrations for defragmentation of a single GPU and
+inter-GPU migrations for consolidation and resource efficiency.
+ - Evaluations on
+a real-world Alibaba GPU cluster trace reveal that GRMU improves acceptance
+rates by 22%, reduces active hardware by 17%, and incurs migration for only 1%
+of MIG-enabled VMs, demonstrating its effectiveness in minimizing fragmentation
+and improving resource utilization.
+--------------------------------------------------
+Title: GPU-Accelerated Modified Bessel Function of the Second Kind for Gaussian Processes
+URL: http://arxiv.org/abs/2502.00356v1
+Matching Sentences:
+ - Since contemporary
+scientific applications, including machine learning, rely on GPUs for
+acceleration, providing robust GPU-hosted implementations of special functions,
+such as the modified Bessel function, is crucial for performance.
+ - Our
+GPU-accelerated approach demonstrates a 2.68x performance improvement using a
+single A100 GPU compared to the GSL on 40-core Intel Cascade Lake CPUs.
+--------------------------------------------------
+Title: Longer Attention Span: Increasing Transformer Context Length with Sparse Graph Processing Techniques
+URL: http://arxiv.org/abs/2502.01659v2
+Matching Sentences:
+ - We also
+demonstrate that our algorithms are able to achieve extremely long sequence
+lengths of as high as 160 million on a single NVIDIA A100 GPU (SXM4 80GB).
+--------------------------------------------------
+Title: Cache Me If You Must: Adaptive Key-Value Quantization for Large Language Models
+URL: http://arxiv.org/abs/2501.19392v4
+Matching Sentences:
+ - AQUA-KV is one-shot, simple, and efficient: it can be calibrated on a
+single GPU within 1-6 hours, even for 70B models.
+--------------------------------------------------
+Title: adabmDCA 2.0 -- a flexible but easy-to-use package for Direct Coupling Analysis
+URL: http://arxiv.org/abs/2501.18456v1
+Matching Sentences:
+ - The package \texttt{adabmDCA 2.0} is
+available in different programming languages (C++, Julia, Python) usable on
+different architectures (single-core and multi-core CPU, GPU) using a common
+front-end interface.
+--------------------------------------------------
+Title: On the Partitioning of GPU Power among Multi-Instances
+URL: http://arxiv.org/abs/2501.17752v1
+Matching Sentences:
+ - NVIDIA's Multi-Instance GPU (MIG) technology improves GPU
+utilization by enabling isolated partitions with per-partition resource
+tracking, facilitating GPU sharing by multiple tenants.
+ - However, accurately
+apportioning GPU power consumption among MIG instances remains challenging due
+to a lack of hardware support.
+ - We
+analyze NVIDIA GPU utilization metrics and find that light-weight methods with
+good accuracy can be difficult to construct.
+--------------------------------------------------
+Title: One Head Eight Arms: Block Matrix based Low Rank Adaptation for CLIP-based Few-Shot Learning
+URL: http://arxiv.org/abs/2501.16720v1
+Matching Sentences:
+ - Notably, Block-LoRA enables fine-tuning CLIP
+on the ImageNet few-shot benchmark using a single 24GB GPU.
+--------------------------------------------------
+Title: Optimizing Neural Network Surrogate Models: Application to Black Hole Merger Remnants
+URL: http://arxiv.org/abs/2501.16462v1
+Matching Sentences:
+ - Moreover,
+NRSur7dq4Remnant_NN results in evaluation speedups of up to $8$ times on a
+single CPU and a further improvement of $2,000$ times when evaluated in batches
+on a GPU.
+--------------------------------------------------
+Title: Static Batching of Irregular Workloads on GPUs: Framework and Application to Efficient MoE Model Inference
+URL: http://arxiv.org/abs/2501.16103v1
+Matching Sentences:
+ - Our MoE
+kernel achieves up to 91% of the peak Tensor Core throughput on NVIDIA H800 GPU
+and 95% on NVIDIA H20 GPU.
+--------------------------------------------------
+Title: PISCO: Pretty Simple Compression for Retrieval-Augmented Generation
+URL: http://arxiv.org/abs/2501.16075v1
+Matching Sentences:
+ - With the
+ability to fine-tune a 7-10B LLM in 48 hours on a single A100 GPU, PISCO offers
+a highly efficient and scalable solution.
+--------------------------------------------------
+Title: GANQ: GPU-Adaptive Non-Uniform Quantization for Large Language Models
+URL: http://arxiv.org/abs/2501.12956v2
+Matching Sentences:
+ - We propose GANQ (GPU-Adaptive
+Non-Uniform Quantization), a layer-wise post-training non-uniform quantization
+framework optimized for hardware-efficient lookup table-based mpGEMM.
+ - GANQ
+achieves superior quantization performance by utilizing a training-free,
+GPU-adaptive optimization algorithm to efficiently reduce layer-wise
+quantization errors.
+ - Furthermore, when deployed on a single
+NVIDIA RTX 4090 GPU, GANQ's quantized models achieve up to 2.57$\times$ speedup
+over the baseline, advancing memory and inference efficiency in LLM deployment.
+--------------------------------------------------
+Title: Recurrent Diffusion for Large-Scale Parameter Generation
+URL: http://arxiv.org/abs/2501.11587v2
+Matching Sentences:
+ - In this paper, we
+introduce Recurrent Diffusion for Large Scale Parameter Generation (RPG), a
+novel framework that generates full neural network parameters up to hundreds of
+millions on a single GPU.
+--------------------------------------------------
+Title: Revisiting Ensemble Methods for Stock Trading and Crypto Trading Tasks at ACM ICAIF FinRL Contest 2023-2024
+URL: http://arxiv.org/abs/2501.10709v1
+Matching Sentences:
+ - Massively parallel simulation on a single GPU
+improves the sampling speed by up to $1,746\times$ using $2,048$ parallel
+environments compared to a single environment.
+--------------------------------------------------
+Title: The Streaming Batch Model for Efficient and Fault-Tolerant Heterogeneous Execution
+URL: http://arxiv.org/abs/2501.12407v4
+Matching Sentences:
+ - While ML model training and inference are both GPU-intensive, CPU-based data
+processing is often the bottleneck.
+--------------------------------------------------
+Title: FASP: Fast and Accurate Structured Pruning of Large Language Models
+URL: http://arxiv.org/abs/2501.09412v1
+Matching Sentences:
+ - Our approach achieves significant speed-ups, pruning models such as
+OPT-125M in 17 seconds and LLaMA-30B in 15 minutes on a single NVIDIA RTX 4090
+GPU, making it a highly practical solution for optimizing LLMs.
+--------------------------------------------------
+Title: Physics-Informed Latent Neural Operator for Real-time Predictions of Complex Physical Systems
+URL: http://arxiv.org/abs/2501.08428v1
+Matching Sentences:
+ - Furthermore, the framework is computationally and memory
+efficient, exhibiting nearly constant scaling behavior on a single GPU and
+demonstrating the potential for further efficiency gains with distributed
+training.
+--------------------------------------------------
+Title: Measuring the intracluster light fraction with machine learning
+URL: http://arxiv.org/abs/2501.08378v1
+Matching Sentences:
+ - Our model can be directly applied to Hyper Suprime-Cam images,
+processing up to 500 images in a matter of seconds on a single GPU, or
+fine-tuned for other imaging surveys such as LSST, with the fine-tuning process
+taking just 3 minutes.
+--------------------------------------------------
+Title: Generalized and Efficient 2D Gaussian Splatting for Arbitrary-scale Super-Resolution
+URL: http://arxiv.org/abs/2501.06838v3
+Matching Sentences:
+ - Secondly, we implement an efficient differentiable
+2D GPU/CUDA-based scale-aware rasterization to render super-resolved images by
+sampling discrete RGB values from the predicted continuous Gaussians.
+--------------------------------------------------
+Title: BATSRUS GPU: Faster-than-Real-Time Magnetospheric Simulations with a Block-Adaptive Grid Code
+URL: http://arxiv.org/abs/2501.06717v1
+Matching Sentences:
+ - It has always been our objective to improve its efficiency
+and speed with emerging techniques, such as GPU acceleration.
+ - To utilize the
+GPU nodes on modern supercomputers, we port BATSRUS to GPUs with the OpenACC
+API.
+ - Porting the code to a single GPU requires rewriting and optimizing the
+most used functionalities of the original code into a new solver, which
+accounts for around 1% of the entire program in length.
+ - The performance for a single A100 GPU is
+about the same as 270 AMD "Rome" CPU cores, and it runs 3.6 times faster than
+real time.
+--------------------------------------------------
+Title: Ultra Memory-Efficient On-FPGA Training of Transformers via Tensor-Compressed Optimization
+URL: http://arxiv.org/abs/2501.06663v1
+Matching Sentences:
+ - Through experiments on transformer models within $36.7$ to $93.5$
+MB using FP-32 data formats on the ATIS dataset, our tensorized FPGA
+accelerator could conduct single-batch end-to-end training on the AMD Alevo U50
+FPGA, with a memory budget of less than $6$-MB BRAM and $22.5$-MB URAM.
+Compared to uncompressed training on the NVIDIA RTX 3090 GPU, our on-FPGA
+training achieves a memory reduction of $30\times$ to $51\times$.
+ - Our FPGA
+accelerator also achieves up to $3.6\times$ less energy cost per epoch compared
+with tensor Transformer training on an NVIDIA RTX 3090 GPU.
+--------------------------------------------------
+Title: Open-source Flux Transport (OFT). I. HipFT -- High-performance Flux Transport
+URL: http://arxiv.org/abs/2501.06377v1
+Matching Sentences:
+ - It can compute multiple realizations in a single run across model
+parameters to create ensembles of maps for uncertainty quantification and is
+high-performance through the use of multi-CPU and multi-GPU parallelism.
+ - We describe HipFT's model features, validations
+of its numerical methods, performance of its parallel and GPU-accelerated code
+implementation, analysis/post-processing options, and example use cases.
+--------------------------------------------------
+Title: Prediction-Assisted Online Distributed Deep Learning Workload Scheduling in GPU Clusters
+URL: http://arxiv.org/abs/2501.05563v1
+Matching Sentences:
+ - The recent explosive growth of deep learning (DL) models has necessitated a
+compelling need for efficient job scheduling for distributed deep learning
+training with mixed parallelisms (DDLwMP) in GPU clusters.
+ - This optimized solution
+serves as a guide for actual job scheduling within the GPU clusters, leading to
+a theoretically provable competitive scheduling efficiency.
+--------------------------------------------------
+Title: Decentralized Diffusion Models
+URL: http://arxiv.org/abs/2501.05450v2
+Matching Sentences:
+ - This means
+we can divide the training burden among a number of "compute islands," lowering
+infrastructure costs and improving resilience to localized GPU failures.
+Decentralized diffusion models empower researchers to take advantage of
+smaller, more cost-effective and more readily available compute like on-demand
+GPU nodes rather than central integrated systems.
+ - We finally
+scale our approach to 24 billion parameters, demonstrating that high-quality
+diffusion models can now be trained with just eight individual GPU nodes in
+less than a week.
+--------------------------------------------------
+Title: Single-Channel Distance-Based Source Separation for Mobile GPU in Outdoor and Indoor Environments
+URL: http://arxiv.org/abs/2501.03045v1
+Matching Sentences:
+ - It incorporates advanced
+techniques, including a two-stage conformer block, a linear relation-aware
+self-attention (RSA), and a TensorFlow Lite GPU delegate.
+--------------------------------------------------
+Title: InfiFusion: A Unified Framework for Enhanced Cross-Model Reasoning via LLM Fusion
+URL: http://arxiv.org/abs/2501.02795v3
+Matching Sentences:
+ - Notably, InfiFusion achieves this superior
+performance while significantly reduces computational costs, completing full
+training with only 160 H800 GPU hours compared to the millions typically
+required for traditional LLM training.
+--------------------------------------------------
+Title: Operator Learning for Reconstructing Flow Fields from Sparse Measurements: an Energy Transformer Approach
+URL: http://arxiv.org/abs/2501.08339v1
+Matching Sentences:
+ - The
+results demonstrate the ability of ET to accurately reconstruct complex flow
+fields from highly incomplete data (90\% missing), even for noisy experimental
+measurements, with fast training and inference on a single GPU.
+--------------------------------------------------
+Title: IGC: Integrating a Gated Calculator into an LLM to Solve Arithmetic Tasks Reliably and Efficiently
+URL: http://arxiv.org/abs/2501.00684v1
+Matching Sentences:
+ - We introduce the
+Integrated Gated Calculator (IGC), a module that enables LLMs to perform
+arithmetic by emulating a calculator on the GPU.
+--------------------------------------------------
+
+Percentage of articles containing 'GPU': 82.72%
+
+
+Search Term: Fine-Tuning
+==================================================
+Title: Dynamic Low-Rank Sparse Adaptation for Large Language Models
+URL: http://arxiv.org/abs/2502.14816v1
+Matching Sentences:
+ - In particular, LoSA dynamically
+sparsifies the LoRA outcomes based on the corresponding sparse weights during
+fine-tuning, thus guaranteeing that the LoRA module can be integrated into the
+sparse LLMs post-training.
+ - Besides, LoSA leverages Representation Mutual
+Information (RMI) as an indicator to determine the importance of layers,
+thereby efficiently determining the layer-wise sparsity rates during
+fine-tuning.
+ - Predicated on this, LoSA adjusts the rank of the LoRA module based
+on the variability in layer-wise reconstruction errors, allocating an
+appropriate fine-tuning for each layer to reduce the output discrepancies
+between dense and sparse LLMs.
+ - For example, LoSA reduced the
+perplexity of sparse LLaMA-2-7B by 68.73 and increased zero-shot accuracy by
+16.32$\%$, achieving a 2.60$\times$ speedup on CPU and 2.23$\times$ speedup on
+GPU, requiring only 45 minutes of fine-tuning on a single NVIDIA A100 80GB GPU.
+Code is available at https://github.com/wzhuang-xmu/LoSA.
+--------------------------------------------------
+Title: ParallelComp: Parallel Long-Context Compressor for Length Extrapolation
+URL: http://arxiv.org/abs/2502.14317v1
+Matching Sentences:
+ - While rotary position embeddings (RoPEs) enhance length generalization,
+effective length extrapolation remains challenging and often requires costly
+fine-tuning.
+--------------------------------------------------
+Title: Democratizing AI: Open-source Scalable LLM Training on GPU-based Supercomputers
+URL: http://arxiv.org/abs/2502.08145v1
+Matching Sentences:
+ - Training and fine-tuning large language models (LLMs) with hundreds of
+billions to trillions of parameters requires tens of thousands of GPUs, and a
+highly scalable software stack.
+ - As part
+of this study, we demonstrate fine-tuning of a 405-billion parameter LLM using
+AxoNN on Frontier.
+--------------------------------------------------
+Title: Long-VITA: Scaling Large Multi-modal Models to 1 Million Tokens with Leading Short-Context Accuracy
+URL: http://arxiv.org/abs/2502.05177v2
+Matching Sentences:
+ - We propose an effective multi-modal training schema that starts with
+large language models and proceeds through vision-language alignment, general
+knowledge learning, and two sequential stages of long-sequence fine-tuning.
+--------------------------------------------------
+Title: Diffusion Instruction Tuning
+URL: http://arxiv.org/abs/2502.06814v1
+Matching Sentences:
+ - We introduce Lavender, a simple supervised fine-tuning (SFT) method that
+boosts the performance of advanced vision-language models (VLMs) by leveraging
+state-of-the-art image generation models such as Stable Diffusion.
+Specifically, Lavender aligns the text-vision attention in the VLM transformer
+with the equivalent used by Stable Diffusion during SFT, instead of adapting
+separate encoders.
+--------------------------------------------------
+Title: EasySpec: Layer-Parallel Speculative Decoding for Efficient Multi-GPU Utilization
+URL: http://arxiv.org/abs/2502.02493v1
+Matching Sentences:
+ - Specifically, the
+drafting stage can be accelerated by up to 1.62x with a maximum accuracy drop
+of only 7%, requiring no training or fine-tuning on the draft models.
+--------------------------------------------------
+Title: One Head Eight Arms: Block Matrix based Low Rank Adaptation for CLIP-based Few-Shot Learning
+URL: http://arxiv.org/abs/2501.16720v1
+Matching Sentences:
+ - Recent advancements in fine-tuning Vision-Language Foundation Models (VLMs)
+have garnered significant attention for their effectiveness in downstream
+few-shot learning tasks.While these recent approaches exhibits some performance
+improvements, they often suffer from excessive training parameters and high
+computational costs.
+ - To address these challenges, we propose a novel Block
+matrix-based low-rank adaptation framework, called Block-LoRA, for fine-tuning
+VLMs on downstream few-shot tasks.
+ - This structure not only reduces the number of training
+parameters, but also transforms certain complex matrix multiplication
+operations into simpler matrix addition, significantly lowering the
+computational cost of fine-tuning.
+ - Notably, Block-LoRA enables fine-tuning CLIP
+on the ImageNet few-shot benchmark using a single 24GB GPU.
+--------------------------------------------------
+Title: Measuring the intracluster light fraction with machine learning
+URL: http://arxiv.org/abs/2501.08378v1
+Matching Sentences:
+ - We then transfer its learning onto real data by
+fine-tuning with a sample of 101 real clusters with their ICL fraction measured
+manually using the surface brightness threshold method.
+ - Our model can be directly applied to Hyper Suprime-Cam images,
+processing up to 500 images in a matter of seconds on a single GPU, or
+fine-tuned for other imaging surveys such as LSST, with the fine-tuning process
+taking just 3 minutes.
+--------------------------------------------------
+Title: Diffusion as Shader: 3D-aware Video Diffusion for Versatile Video Generation Control
+URL: http://arxiv.org/abs/2501.03847v2
+Matching Sentences:
+ - With just 3 days of fine-tuning on 8 H800
+GPUs using less than 10k videos, DaS demonstrates strong control capabilities
+across diverse tasks, including mesh-to-video generation, camera control,
+motion transfer, and object manipulation.
+--------------------------------------------------
+
+Percentage of articles containing 'Fine-Tuning': 11.11%
+
+
