@@ -6,7 +6,7 @@
 
 To install the `arxiv-tool-analyzer` package, you can use `pip`. Run the following command in your terminal or command prompt:
 
-[pip install arxiv-tool-analyzer](https://pypi.org/project/arxiv-tool-analyzer/).
+[pip install arxiv-tool-analyzer](https://pypi.org/project/arxiv-tool-analyzer/)
 
 ---
 
